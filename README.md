@@ -4,11 +4,11 @@
 
 <table>
   <tr>
-    <td width="85%">
+    <td width="700">
       <strong>Merge-path lower &amp; upper bound</strong><br>
-      Added GPU search algorithms for sorted inputs. <strong>Up to 38× faster.</strong>
+      <sub>Added GPU search algorithms for sorted inputs. <strong>Up to 38× faster.</strong></sub>
     </td>
-    <td width="15%" align="center">
+    <td width="150" align="center">
       <a href="https://github.com/NVIDIA/cccl/pull/8780">PR&nbsp;#8780&nbsp;↗</a>
     </td>
   </tr>
@@ -18,20 +18,20 @@
 
 <table>
   <tr>
-    <td width="85%">
+    <td width="700">
       <strong>Native Metal hardtanh backward</strong><br>
-      Replaced the MPSGraph implementation with a native Metal kernel.
+      <sub>Replaced the MPSGraph implementation with a native Metal kernel.</sub>
     </td>
-    <td width="15%" align="center">
+    <td width="150" align="center">
       <a href="https://github.com/pytorch/pytorch/pull/200791">PR&nbsp;#200791&nbsp;↗</a>
     </td>
   </tr>
   <tr>
-    <td width="85%">
+    <td width="700">
       <strong>Floating-point remainder correctness</strong><br>
-      Fixed errors for large quotients and infinite divisors on MPS, with regression tests.
+      <sub>Fixed errors for large quotients and infinite divisors on MPS, with regression tests.</sub>
     </td>
-    <td width="15%" align="center">
+    <td width="150" align="center">
       <a href="https://github.com/pytorch/pytorch/pull/200267">PR&nbsp;#200267&nbsp;↗</a>
     </td>
   </tr>
