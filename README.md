@@ -1,56 +1,45 @@
 # Open Source Contributions
 
-<p>
-  <a href="https://github.com/NVIDIA/cccl">
-    <img src="https://cdn.simpleicons.org/nvidia/76B900" width="32" height="32" alt="NVIDIA">
-  </a>
-  &nbsp; <strong>NVIDIA · CCCL</strong>
-</p>
+<h2>
+  <img src="https://cdn.simpleicons.org/nvidia/76B900" width="28" height="28" alt="">
+  &nbsp;NVIDIA · CCCL
+</h2>
 
 <table>
   <tr>
     <td width="650">
-      <strong>Merge-path lower &amp; upper bound</strong>
-      <br><br>
-      Added GPU search algorithms for sorted inputs.
-      <br><br>
-      <strong>Up to 38× faster.</strong>
+      <h3>Merge-path lower &amp; upper bound</h3>
+      <p>Added GPU search algorithms for sorted inputs.</p>
+      <p><strong>Up to 38× faster.</strong></p>
     </td>
     <td width="150" align="center">
-      <a href="https://github.com/NVIDIA/cccl/pull/8780">PR #8780 ↗</a>
+      <a href="https://github.com/NVIDIA/cccl/pull/8780">PR&nbsp;#8780&nbsp;↗</a>
     </td>
   </tr>
 </table>
 
-<br>
-
-<p>
-  <a href="https://github.com/pytorch/pytorch">
-    <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" width="32" height="32" alt="PyTorch">
-  </a>
-  &nbsp; <strong>PyTorch</strong>
-</p>
+<h2>
+  <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" width="28" height="28" alt="">
+  &nbsp;PyTorch
+</h2>
 
 <table>
   <tr>
     <td width="650">
-      <strong>Native Metal hardtanh backward</strong>
-      <br><br>
-      Replaced the MPSGraph implementation with a native Metal kernel.
+      <h3>Native Metal hardtanh backward</h3>
+      <p>Replaced the MPSGraph implementation with a native Metal kernel.</p>
     </td>
     <td width="150" align="center">
-      <a href="https://github.com/pytorch/pytorch/pull/200791">PR #200791 ↗</a>
+      <a href="https://github.com/pytorch/pytorch/pull/200791">PR&nbsp;#200791&nbsp;↗</a>
     </td>
   </tr>
   <tr>
     <td width="650">
-      <strong>Floating-point remainder correctness</strong>
-      <br><br>
-      Fixed errors for large quotients and infinite divisors on MPS.
-      Added regression tests against CPU results.
+      <h3>Floating-point remainder correctness</h3>
+      <p>Fixed errors for large quotients and infinite divisors on MPS. Added regression tests against CPU results.</p>
     </td>
     <td width="150" align="center">
-      <a href="https://github.com/pytorch/pytorch/pull/200267">PR #200267 ↗</a>
+      <a href="https://github.com/pytorch/pytorch/pull/200267">PR&nbsp;#200267&nbsp;↗</a>
     </td>
   </tr>
 </table>
